@@ -1,0 +1,8 @@
+name: Testo
+on: [push]
+jobs:
+  testola:
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing
+      run: echo 'testo, testola'
